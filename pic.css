@@ -1,0 +1,27 @@
+body, .canvasWrapper{
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#canvas{
+	margin: 0, auto;
+}
+.controller{
+	position: absolute;
+	/*height: 10vh;*/
+	width: 90%;
+	bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	padding: 3vh 5%;
+	background: rgba(109, 180, 226, 0.4);
+}
+
+.range{
+	width: 100%;
+	height: 5vh;
+	line-height: 5vh;
+	cursor: pointer;
+}
